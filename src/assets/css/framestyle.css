@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+/* index.html样式 */
+ul,li{margin:0;padding:0;list-style:none;}
+h1,h2,h3,h4,h5,h6,p,dl,dd,dt{margin:0;padding:0;}
+input,select,option,button{display:block;margin:0;padding:0;outline:none;}
+a{text-decoration:none;}
+img{display:block;border:none;}
+body{margin:0;padding:0;background:#f5f9ff;}
+.maincontent h1{font-family:"微软雅黑";font-size:22px;line-height:22px;font-weight:bold;color:#2d87f2;text-align:center;padding-top:30px;}
+.daterangebox{padding:20px 50px;font-size: 0;}
+.daterangebox span{display:inline-block;vertical-align:top;font-family:"微软雅黑";line-height:40px;color:#4c4c4c;font-size:16px;margin-left:20px;}
+.daterangebox input#historydate{display:inline-block;vertical-align:top;padding-left:10px;width:240px;height:38px;border-radius:4px;border:1px #2d87f2 solid;background:#fff;font-size:16px;font-family:"微软雅黑";line-height:38px;color:#333;}
+.daterangebox .historysearchbtn{display:inline-block;vertical-align:top;padding:0;width:100px;height:40px;border:none;font-family:"微软雅黑";font-size:16px;line-height:40px;text-align:center;color:#fff;background:#2d87f2;margin-left:10px;border-radius:4px;cursor:pointer;}
+.daterangebox .historysearchbtn:hover{background:#559cf2;}
+.daterangebox input#trenddate{display:inline-block;vertical-align:top;padding-left:10px;width:240px;height:38px;border-radius:4px;border:1px #2d87f2 solid;background:#fff;font-size:16px;font-family:"微软雅黑";line-height:38px;color:#333;}
+.daterangebox .trendsearchbtn{display:inline-block;vertical-align:top;padding:0;width:100px;height:40px;border:none;font-family:"微软雅黑";font-size:16px;line-height:40px;text-align:center;color:#fff;background:#2d87f2;margin-left:10px;border-radius:4px;cursor:pointer;}
+.daterangebox .trendsearchbtn:hover{background:#559cf2;}
+select#choose{display:none;}
+select#monthrange{display:none;}
+.select_box{display:inline-block;vertical-align:top;font-family:"微软雅黑";font-size:16px;color:#333;width:228px;line-height:38px;background:#fff;border:1px #2d87f2 solid;border-radius:4px;position:relative;}
+.select_showbox{height:38px;background:url("../images/selectarrow01.png") no-repeat 206px center;padding-left:10px;}
+.select_showbox.showaction{background:url("../images/selectarrow02.png") no-repeat 206px center;}
+.select_option{display:none;width:228px;max-height:280px;background:#fff;position:absolute;left:0;top:40px;z-index:100;box-shadow:0 0 10px rgba(0,0,0,0.3);border-radius:4px;overflow-x:hidden;overflow-y: auto;}
+.select_option li{padding:0 10px;font-size:14px;line-height:36px;}
+.select_option li.selected{background-color:#2d87f2;color:#fff;}
+.select_option li.hover{background:#2d87f2;color:#fff;}
+.daterangebox .relationsearchbtn{display:inline-block;padding:0;vertical-align:top;width:100px;height:40px;border:none;font-family:"微软雅黑";font-size:16px;line-height:40px;text-align:center;color:#fff;background:#2d87f2;border-radius:4px;cursor:pointer;margin-left:10px;}
+.daterangebox .relationsearchbtn:hover{background:#559cf2;}
+.maincontent .noticebox{font-family:"微软雅黑";font-size:14px;color:#4c4c4c;line-height:18px;margin:10px auto 0;text-align:center;width:96%;}
+.maincontent h2{font-family:"微软雅黑";font-size:16px;font-weight:bold;color:#333;line-height:16px;margin:0 10px 10px;}
+#historycontainer{width:100%;height:640px;}
+#relationcontainer{width:96%;margin:0 2%;height:640px;}
+#trendcontainer{width:100%;height:640px;}
+
+.chartcontent{width:49%;margin:10px 0.5% 0;height:340px;float:left;}
+#qccontainer{width:100%;height:300px;}
+#hkcontainer{width:100%;height:300px;}
+#jxcontainer{width:100%;height:300px;}
+#duibicontainer{width:100%;height:300px;}
+
+.optimizecontent{width:100%;margin-top:10px;}
+#timecontainer{width:100%;height:310px;}
+#totalcontainer{width:100%;height:310px;}
+
+/*时段用电量表格样式*/
+.totaltablebox{margin:10px 0.5% 0;float:left;width:69%;height:162px;}
+.tableleftbox{width:239px;height:auto;float:left;}
+.tableleftbox table{width:100%;}
+.tableleftbox table tr{width:100%;height:40px;}
+.tableleftbox table tr th{background:#2d87f2;font-family:"微软雅黑";font-size:16px;font-weight:bold;height:40px;line-height:40px;color:#fff;border-right:1px #fff solid;}
+.tablecontent{width:100%;height:122px;overflow:auto;}
+.tablecontent table tr{height:50px;}
+.tablecontent table tr td{width:119px;height:50px;background:#f2f2f2;font-family:"微软雅黑";font-size:14px;line-height:50px;text-align:center;color:#333;border-top:1px #fff solid;border-right:1px #ffff solid;}
+.freezelist{height:102px;overflow:hidden;width:100%;}
+.freezelist table{width:100%;}
+.freezelist table tr{width:100%;height:50px;background:#f2f2f2;}
+.freezelist table tr td{width:100%;height:50px;font-family:"微软雅黑";font-size:14px;line-height:40px;text-align:center;color:#333;font-weight:bold;border-top:1px #fff solid;border-right:1px #fff solid;}
+.tablerightbox{width:calc(100% - 240px);height:auto;float:left;}
+.tablerightbox table{width:2880px;}
+.tabletitle{width:2880px;}
+.tabletitle table tr th{width:119px;background:#2d87f2;font-family:"微软雅黑";font-size:16px;font-weight:normal;height:40px;line-height:40px;color:#fff;border-right:1px #fff solid;}
+.tabletitlebox{width:100%;overflow:hidden;}
+/*图表表格样式*/
+.charttablebox{width:29.5%;float:right;margin-right:0.5%;margin-top:10px;}
+.charttablebox table{width:100%;}
+.charttablebox table thead{width:100%;}
+.charttablebox table thead tr{width:100%;height:40px;background:#2d87f2;}
+.charttablebox table thead tr th{font-family:"微软雅黑";font-size:16px;line-height:40px;color:#fff;border-right:1px #fff solid;}
+.charttablebox table tbody{width:100%;}
+.charttablebox table tbody tr{width:100%;height:60px;}
+.charttablebox table tbody tr td{height:50px;background:#f2f2f2;font-family:"微软雅黑";font-size:14px;line-height:24px;text-align:center;color:#333;border-right:1px #fff solid;border-top:1px #fff solid;}
+.needduibicontent{width:100%;margin-top:10px;}
+#needcontainer{width:100%;height:480px;}
+@media (max-width:1680px){
+	#historycontainer{width:100%;height:600px;}
+	#relationcontainer{width:96%;margin:0 2%;height:600px;}
+	#trendcontainer{width:100%;height:600px;}
+	.chartcontent{height:320px;}
+	#qccontainer{width:100%;height:280px;}
+	#hkcontainer{width:100%;height:280px;}
+	#jxcontainer{width:100%;height:280px;}
+	#duibicontainer{width:100%;height:280px;}
+	#timecontainer{width:100%;height:290px;}
+	#totalcontainer{width:100%;height:290px;}
+	#needcontainer{width:100%;height:440px;}
+}
+@media (max-width:1600px){
+	#historycontainer{width:100%;height:480px;}
+	#relationcontainer{width:96%;margin:0 2%;height:480px;}
+	#trendcontainer{width:100%;height:480px;}
+	.chartcontent{height:260px;}
+	#qccontainer{width:100%;height:230px;}
+	#hkcontainer{width:100%;height:230px;}
+	#jxcontainer{width:100%;height:230px;}
+	#duibicontainer{width:100%;height:230px;}
+	#timecontainer{width:100%;height:230px;}
+	#totalcontainer{width:100%;height:230px;}
+	#needcontainer{width:100%;height:340px;}
+}
+@media (max-width:1440px){
+	.maincontent h1{padding-top:25px;}
+	.daterangebox{padding:15px 40px;font-size: 0;}
+	#historycontainer{width:100%;height:500px;}
+	#relationcontainer{width:96%;margin:0 2%;height:500px;}
+	#trendcontainer{width:100%;height:500px;}
+	.chartcontent{height:260px;}
+	.maincontent h2{font-size:14px;line-height:14px;margin:0 10px 5px;}
+	#qccontainer{width:100%;height:240px;}
+	#hkcontainer{width:100%;height:240px;}
+	#jxcontainer{width:100%;height:240px;}
+	#duibicontainer{width:100%;height:240px;}
+	#timecontainer{width:100%;height:250px;}
+	#totalcontainer{width:100%;height:250px;}
+	#needcontainer{width:100%;height:340px;}
+}
+@media (max-width:1366px){
+	#historycontainer{width:100%;height:380px;}
+	#relationcontainer{width:96%;margin:0 2%;height:380px;}
+	#trendcontainer{width:100%;height:380px;}
+	.chartcontent{height:210px;}
+	#qccontainer{width:100%;height:190px;}
+	#hkcontainer{width:100%;height:190px;}
+	#jxcontainer{width:100%;height:190px;}
+	#duibicontainer{width:100%;height:190px;}
+	#timecontainer{width:100%;height:190px;}
+	#totalcontainer{width:100%;height:190px;}
+
+	/*时段用电量表格样式*/
+	.totaltablebox{margin:10px 0.5% 0;float:left;width:64%;height:132px;}
+	.tableleftbox{width:239px;height:auto;float:left;}
+	.tableleftbox table{width:100%;}
+	.tableleftbox table tr{width:100%;height:30px;}
+	.tableleftbox table tr th{background:#2d87f2;font-family:"微软雅黑";font-size:14px;font-weight:bold;height:30px;line-height:30px;color:#fff;border-right:1px #fff solid;}
+	.tablecontent{width:100%;height:102px;overflow:auto;}
+	.tablecontent table tr{height:40px;}
+	.tablecontent table tr td{width:119px;height:40px;background:#f2f2f2;font-family:"微软雅黑";font-size:12px;line-height:40px;text-align:center;color:#333;border-top:1px #fff solid;border-right:1px #ffff solid;}
+	.freezelist{height:102px;overflow:hidden;width:100%;}
+	.freezelist table{width:100%;}
+	.freezelist table tr{width:100%;height:40px;background:#f2f2f2;}
+	.freezelist table tr td{width:100%;height:40px;font-family:"微软雅黑";font-size:12px;line-height:40px;text-align:center;color:#333;font-weight:bold;border-top:1px #fff solid;border-right:1px #fff solid;}
+	.tablerightbox{width:calc(100% - 240px);height:auto;float:left;}
+	.tablerightbox table{width:2880px;}
+	.tabletitle{width:2880px;}
+	.tabletitle table tr th{width:119px;background:#2d87f2;font-family:"微软雅黑";font-size:14px;font-weight:normal;height:30px;line-height:30px;color:#fff;border-right:1px #fff solid;}
+	.tabletitlebox{width:100%;overflow:hidden;}
+	/*图表表格样式*/
+	.charttablebox{width:34.5%;float:right;margin-right:0.5%;margin-top:10px;}
+	.charttablebox table{width:100%;}
+	.charttablebox table thead{width:100%;}
+	.charttablebox table thead tr{width:100%;height:30px;background:#2d87f2;}
+	.charttablebox table thead tr th{font-family:"微软雅黑";font-size:14px;line-height:30px;color:#fff;border-right:1px #fff solid;}
+	.charttablebox table tbody{width:100%;}
+	.charttablebox table tbody tr{width:100%;height:50px;}
+	.charttablebox table tbody tr td{height:40px;background:#f2f2f2;font-family:"微软雅黑";font-size:12px;line-height:16px;text-align:center;color:#333;border-right:1px #fff solid;border-top:1px #fff solid;}
+	#needcontainer{width:100%;height:260px;}
+}
+@media (max-width:1280px){
+	.maincontent h1{font-size:20px;line-height:20px;padding-top:20px;}
+	.daterangebox{padding:15px 40px;font-size: 0;}
+	.daterangebox input#historydate{height:34px;font-size:14px;line-height:34px;}
+	.daterangebox .historysearchbtn{width:80px;height:36px;font-size:14px;line-height:36px;}
+	#historycontainer{width:100%;height:340px;}
+
+	.select_box{font-family:"微软雅黑";font-size:14px;color:#333;line-height:34px;}
+	.select_showbox{height:34px;}
+	.select_option{top:36px;}
+	.select_option li{line-height:30px;}
+	.daterangebox .relationsearchbtn{width:80px;height:36px;font-size:14px;line-height:36px;}
+	#relationcontainer{width:96%;margin:0 2%;height:360px;}
+
+	.daterangebox .trendsearchbtn{width:80px;height:36px;font-size:14px;line-height:36px;}
+	#trendcontainer{width:100%;height:340px;}
+
+	.chartcontent{height:180px;}
+	#qccontainer{width:100%;height:160px;}
+	#hkcontainer{width:100%;height:160px;}
+	#jxcontainer{width:100%;height:160px;}
+	#duibicontainer{width:100%;height:160px;}
+
+	#timecontainer{width:100%;height:160px;}
+	#totalcontainer{width:100%;height:160px;}
+
+	#needcontainer{width:100%;height:210px;}
+}
+@media (max-width:1080px){
+	#historycontainer{width:100%;height:320px;}
+	#relationcontainer{width:96%;margin:0 2%;height:320px;}
+	#trendcontainer{width:100%;height:320px;}
+}

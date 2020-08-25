@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+/* index.html样式 */
+ul,li{margin:0;padding:0;list-style:none;}
+h1,h2,h3,h4,h5,h6,p,dl,dd,dt{margin:0;padding:0;}
+input,select,option,button{display:block;margin:0;padding:0;outline:none;}
+a{text-decoration:none;}
+img{display:block;border:none;}
+body{margin:0;padding:0;}
+/*顶部标题栏样式*/
+.topbox{width:100%;font-size:0;margin-bottom:20px;}
+.topbox .topleftbox{display:inline-block;vertical-align:top;width:250px;height:60px;background:url("../images/top_bgleft.png") no-repeat center center;}
+.topbox .toptitlebox{display:inline-block;vertical-align:top;width:calc(100% - 500px);height:60px;font-family:"微软雅黑";font-size:24px;color:#fff;text-align:center;line-height:60px;font-weight:bold;background:#2d87f2;}
+.topbox .toprightbox{display:inline-block;vertical-align:top;width:250px;height:60px;background:url("../images/top_bgright.png") no-repeat center center;}
+.topbox .toprightbox #todaytime{color:#fff;font-family:"微软雅黑";font-size: 16px;text-align: right;font-weight:bold;line-height:60px;padding-right:20px;}
+
+/*分类标签样式*/
+.infotypelist{width:100%;}
+.infotypelist ul{font-size:0;height:46px;border-bottom:4px #2d87f2 solid;background:#fff;}
+.infotypelist ul li{font-size:0;display:inline-block;vertical-align:top;height:50px;cursor:pointer;}
+.infotypelist ul li p{display:inline-block;vertical-align:top;font-family:"微软雅黑";font-size:16px;height:46px;line-height:50px;background:#e6e6e6;color:#2d87f2;}	
+.infotypelist ul li i.lefticon{display:inline-block;vertical-align:top;width:38px;height:46px;background:url("../images/mark_left01.png") no-repeat;background-size:100% 100%;background-position:center center;}	
+.infotypelist ul li i.righticon{display:inline-block;vertical-align:top;width:38px;height:46px;background:url("../images/mark_right01.png") no-repeat;background-size:100% 100%;background-position:center center;}
+.infotypelist ul li.infotypeaction p{color:#fff;font-weight:bold;background:#2d87f2;}
+.infotypelist ul li.infotypeaction i.lefticon{width:38px;height:46px;background:url("../images/mark_left02.png") no-repeat;background-size:100% 100%;background-position:center center;}
+.infotypelist ul li.infotypeaction i.righticon{width:38px;height:46px;background:url("../images/mark_right02.png") no-repeat;background-size:100% 100%;background-position:center center;}
+
+/*图标框架样式*/
+.chartiframe{width:100%;height:calc(100% - 130px);position:absolute;bottom:0;left:0;top:130px;z-index:0;}
+@media (max-width:1366px){
+	.infotypelist ul{height:36px;}
+	.infotypelist ul li{height:40px;}
+	.infotypelist ul li p{font-size:14px;height:36px;line-height:40px;}	
+	.infotypelist ul li i.lefticon{width:30px;height:36px;}	
+	.infotypelist ul li i.righticon{width:30px;height:36px;}
+	.infotypelist ul li.infotypeaction i.lefticon{width:30px;height:36px;}
+	.infotypelist ul li.infotypeaction i.righticon{width:30px;height:36px;}
+	.chartiframe{width:100%;height:calc(100% - 120px);position:absolute;bottom:0;left:0;top:120px;}
+}
+@media (max-width:1080px){
+	.topbox .toptitlebox{font-size:20px;}
+	.infotypelist ul{height:32px;border-bottom:2px #2d87f2 solid;}
+	.infotypelist ul li{height:34px;}
+	.infotypelist ul li p{font-size:12px;height:32px;line-height:32px;}	
+	.infotypelist ul li i.lefticon{width:26px;height:32px;}	
+	.infotypelist ul li i.righticon{width:26px;height:32px;}
+	.infotypelist ul li.infotypeaction i.lefticon{width:26px;height:32px;}
+	.infotypelist ul li.infotypeaction i.righticon{width:26px;height:32px;}
+	.chartiframe{width:100%;height:calc(100% - 114px);position:absolute;bottom:0;left:0;top:114px;}
+}
