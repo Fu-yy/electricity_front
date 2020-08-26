@@ -89,6 +89,9 @@
       <el-col :span="8">
         <div id="testChart28" :style="{ height: '500px'}"></div>
       </el-col>
+            <el-col :span="8">
+        <div id="testChart29" :style="{ height: '500px'}"></div>
+      </el-col>
     </el-row>
   </div>
 </template>
@@ -125,6 +128,7 @@ export default {
     this.drawChart26();
     this.drawChart27();
     this.drawChart28();
+    this.drawChart29();
     var that = this;
     window.onresize = function() {
       that.$echarts.init(document.getElementById("testChart")).resize();
@@ -155,6 +159,7 @@ export default {
       that.$echarts.init(document.getElementById("testChart26")).resize();
       that.$echarts.init(document.getElementById("testChart27")).resize();
       that.$echarts.init(document.getElementById("testChart28")).resize();
+      that.$echarts.init(document.getElementById("testChart29")).resize();
     };
   },
   methods: {
@@ -6037,6 +6042,16 @@ export default {
           }
         });
       });
+    
+    },
+    drawChart29(){
+      let testChart29 = this.$echarts.init(document.getElementById("testChart29"));
+      var t = this;
+      var option = {};
+
+    
+
+
     }
   }
 };
