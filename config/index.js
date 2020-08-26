@@ -17,6 +17,13 @@ module.exports = {
         pathRewrite: {
           '^/test': ''
         }
+      },
+      '/findElectricityPastList': {
+        target: 'http://202.118.26.114:8081',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/findElectricityPastList': ''
+        }
       }
     },
 

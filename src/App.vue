@@ -9,25 +9,60 @@
       </div>
     </div>
 
-    <el-col>
-      <el-menu
-        :default-active="this.$route.path"
-        class="el-menu-demo"
-        mode="horizontal"
-        router
-        @open="handleOpen"
-        @close="handleClose"
-        background-color="#545c64"
-        text-color="#fff"
-        active-text-color="#ffd04b"
-      >
-        <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name">
-          <i class="el-icon-s-platform"></i>
-          <span>{{ item.navItem }}</span>
-        </el-menu-item>
-      </el-menu>
-    </el-col>
-
+    <!--分类标签-->
+<div class="infotypelist">
+	<ul>
+		<li >
+			<a href="#" target="chartiframe" >
+				<i class="lefticon"></i>
+        <router-link to="/first"><p>行业历史用电量统计分析</p></router-link>
+				<i class="righticon"></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" target="chartiframe" >
+				<i class="lefticon"></i>
+				<router-link to="/second" ><p>行业用电量关联性分析</p></router-link> 
+				<i class="righticon"></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" target="chartiframe">
+				<i class="lefticon"></i>
+				<router-link to="/third"> <p>行业用电趋势预测</p></router-link>
+				<i class="righticon"></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" target="chartiframe">
+				<i class="lefticon"></i>
+        <router-link to="/forth"> <p>峰谷平电价和行业分时定价</p></router-link>
+				<i class="righticon"></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" target="chartiframe">
+				<i class="lefticon"></i>
+        <router-link to="/fifth"> <p>行业分时用电量优化</p></router-link>
+				<i class="righticon"></i>
+			</a>
+		</li>
+		<li>
+			<a href="#" target="chartiframe">
+				<i class="lefticon"></i>
+            <router-link to="/sixth"> <p>需求侧用电量优化</p></router-link>
+				<i class="righticon"></i>
+			</a>
+		</li>
+    <li>
+			<a href="#" target="chartiframe">
+				<i class="lefticon"></i>
+            <router-link to="/testPage"> <p>测试</p></router-link>
+				<i class="righticon"></i>
+			</a>
+		</li>
+	</ul>
+</div>
     <router-view class="menu-right" />
   </div>
 </template>
@@ -35,6 +70,10 @@
 <script>
 export default {
   name: "App",
+  data:{
+    activeClass: 'infotypeaction',
+    leftClass:'lefticon'
+  },
   data() {
     return {
       // activeName: "1"
@@ -45,7 +84,8 @@ export default {
 
         { name: "/forth", navItem: "个人中心" },
         { name: "/fifth", navItem: "个人中心" },
-        { name: "/sixth", navItem: "管理员中心" }
+        { name: "/sixth", navItem: "管理员中心" },
+        { name: "/testPage", navItem: "testPage" }
       ]
     };
   },
@@ -67,12 +107,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import "./assets/css/indexstyle.css";
-.menu-right {
+/* .menu-right {
   margin-left: 200px;
-}
-.el-col{
-  float:none;
+} */
+el-menu-item{
+  margin-left: 20px;
+  padding: 20px;
 }
 </style>

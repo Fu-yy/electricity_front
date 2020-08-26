@@ -7,6 +7,7 @@ import ThirdPage from '@/views/ThirdPage'
 import ForthPage from '@/views/ForthPage'
 import FifthPage from '@/views/FifthPage'
 import SixthPage from '@/views/SixthPage'
+import testPage from '@/views/testPage'
 
 Vue.use(Router)
 
@@ -41,6 +42,10 @@ export default new Router({
       path: '/sixth',
       name: 'SixthPage',
       component: SixthPage
+    },{
+      path: '/testPage',
+      name: 'testPage',
+      component: testPage
     },
     
   ]

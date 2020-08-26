@@ -1,150 +1,287 @@
 <template>
   <div>
-    <div id="myChart" :style="{width: '800px', height: '400px'}"></div>
+    <el-row :gutter="20">
+      <el-col :span="6">
+        <div id="firstPage_myChart1" :style="{width: '100%', height: '200px'}"></div>
+      </el-col>
+      <el-col :span="12">
+                <div id="firstPage_myChart2" :style="{width: '100%', height: '500px'}"></div>
+
+      </el-col>
+      <el-col :span="6">
+        <div id="firstPage_myChart3" :style="{width: '100%', height: '200px'}"></div>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
 <script>
-
 export default {
   name: "FirstPage",
   data: "",
-  data () {
+  data() {
     return {
-      msg: 'evaluation'
-    }
+      msg: "evaluation"
+    };
   },
   mounted() {
-    this.drawLine();
-    
+    // this.drawLine();
+    this.drawLine2();
   },
-  methods:{
-    drawLine(){
-      // 基于准备好的dom，初始化echarts实例
-        let myChart = this.$echarts.init(document.getElementById('myChart'))
-        // let myPie = this.$echarts.init(document.getElementById('pie'))
-        let _this = this
-        // 绘制饼图
-        myChart.setOption({
-            title : {
-            text: '被评价次数分布情况',
-            // subtext: '纯属虚构',
-            x:'center'
+  methods: {
+    // drawLine() {
+    //   // 基于准备好的dom，初始化echarts实例
+    //   let firstPage_myChart1 = this.$echarts.init(document.getElementById("firstPage_myChart1"));
+
+    //   // 绘制饼图
+    //   firstPage_myChart1.setOption({});
+
+    //   this.$axios.get("/findElectricityPastList").then(response => {
+    //     console.log(response);
+    //     console.log(response.data.data);
+    //     console.log(response.data.data.time);
+    //   });
+    // }
+
+    drawLine2(){
+      let firstPage_myChart2 = this.$echarts.init(
+        document.getElementById("firstPage_myChart2")
+      );
+      firstPage_myChart2.setOption({
+        backgroundColor: "#1A1835",
+
+        tooltip: {
+          trigger: "axis",
+          axisPointer: {
+            type: "shadow",
+            textStyle: {
+              color: "#fff"
+            }
+          }
+        },
+        grid: {
+          borderWidth: 0,
+          top: 110,
+          bottom: 95,
+          textStyle: {
+            color: "#fff"
+          }
+        },
+        legend: {
+          x: "46%",
+          top: "11%",
+          textStyle: {
+            color: "#90979c"
+          },
+          data: ["访问量", "订单量"]
+        },
+
+        calculable: true,
+        xAxis: [
+          {
+            type: "category",
+            axisLine: {
+              lineStyle: {
+                color: "rgba(204,187,225,0.5)"
+              }
             },
-            tooltip : {
-            trigger: 'item',
-            formatter: "{a} <br/>{b} : {c} ({d}%)"
+            splitLine: {
+              show: false
             },
-            legend: {
-            orient: 'vertical',
-            left: 'left',
-            data: ['汽车行业','航空','机械']
+            axisTick: {
+              show: false
             },
-            series : [
-                // {
-                //     name: '评价次数',
-                //     type: 'pie',
-                //     radius : '55%',
-                //     center: ['50%', '60%'],
-                //     data:[
-                //         // {value:"1", name:'华夏银行'},{value:"4", name:'农业银行'},{value:"3", name:'招商银行'}
-                //     ],
-                //     itemStyle: {
-                //         emphasis: {
-                //             shadowBlur: 10,
-                //             shadowOffsetX: 0,
-                //             shadowColor: 'rgba(0, 0, 0, 0.5)'
-                //         }
-                //     }
-                // }
-            ]
-        });
+            data: ['1日','2日','3日','4日','5日','6日','7日','8日','9日','10日','11日','12日','13日','14日','15日','16日','17日','18日','19日','20日','21日','22日','23日','24日','25日','26日','27日','28日','29日','30日']
+          }
+        ],
 
+        yAxis: [
+          {
+            type: "value",
+            splitLine: {
+              show: false
+            },
+            axisLine: {
+              lineStyle: {
+                color: "rgba(204,187,225,0.5)"
+              }
+            }
+          }
+        ],
+        dataZoom: [
+          {
+            show: true,
+            height: 30,
+            xAxisIndex: [0],
+            bottom: 30,
 
-
-
-      this.$axios
-      .get("/findEletrictPastList")
-      .then(response => {
-        console.log(response);
-        console.log(response.data.data);
-        console.log(response.data.data.time);
-        var timeList = response.data.data.time;
-
-        let chartData = [];
-        let dataList = [];
-
-        let machineData = response.data.data.machine;
-        let carData = response.data.data.car;
-        let avitationtData = response.data.data.avitation;
-
-        dataList.push(machineData);
-        dataList.push(carData);
-        dataList.push(avitationtData);
-
-
-      dataList.forEach(function(item){
-        console.log(item);
-        timeList.forEach(function(index){
-          let outObj = {};
-          // let valueKey = Object.keys(i);
-          // console.log("俩面")
-          // console.log(item)
-          // console.log(valueKey)
-          // console.log("外面")
-
-          // outObj.name =item.key ;
-          outObj.value = item.index;
-          chartData.push(outObj);
-        })
-
-      })
-
-        // let seriesData = [];
-
-
-        // chartData.forEach(function(item){
-        //   let outObj = {};
-        //   let valueKey = Object.keys(item);
-        //   // console.log("俩面")
-        //   // console.log(item)
-        //   // console.log(valueKey)
-        //   // console.log("外面")
-
-        //   outObj.name = item[valueKey[0]];
-        //   outObj.value = valueKey[1];
-        //   seriesData.push(outObj);
-        // })
-        console.log("chartData");
-        console.log(chartData);
-        myChart.setOption({
-          // data: ['华夏银行','农业银行','招商银行'],
-          // legend:{
-          //   data: timeList
-          // },
-          series:[{
-                    name: '评价次数',
-                    type: 'pie',
-                    radius : '55%',
-                    center: ['50%', '60%'],
-                    data:[{value:"1", name:'华夏银行'},{value:"4", name:'农业银行'},{value:"3", name:'招商银行'}],
-                    // data:seriesData,
-
-                    itemStyle: {
-                        emphasis: {
-                            shadowBlur: 10,
-                            shadowOffsetX: 0,
-                            shadowColor: 'rgba(0, 0, 0, 0.5)'
-                        }
-                    }
+            start: 10,
+            end: 80,
+            handleIcon:
+              "path://M306.1,413c0,2.2-1.8,4-4,4h-59.8c-2.2,0-4-1.8-4-4V200.8c0-2.2,1.8-4,4-4h59.8c2.2,0,4,1.8,4,4V413z",
+            handleSize: "110%",
+            handleStyle: {
+              color: "#5B3AAE"
+            },
+            textStyle: {
+              color: "rgba(204,187,225,0.5)"
+            },
+            fillerColor: "rgba(67,55,160,0.4)",
+            borderColor: "rgba(204,187,225,0.5)"
+          },
+          {
+            type: "inside",
+            show: true,
+            height: 15,
+            start: 1,
+            end: 35
+          }
+        ],
+        series: [
+          {
+            name: "访问量",
+            type: "line",
+            symbolSize: 10,
+            symbol: "circle",
+            itemStyle: {
+              color: "#6f7de3"
+            },
+            markPoint: {
+              label: {
+                normal: {
+                  textStyle: {
+                    color: "#fff"
+                  }
                 }
-          ]
-        })
-        });
+              },
+              data: [
+                {
+                  type: "max",
+                  name: "最大值"
+                },
+                {
+                  type: "min",
+                  name: "最小值"
+                }
+              ]
+            },
+            data: [
+              509,
+              917,
+              2455,
+              2610,
+              2719,
+              3033,
+              3044,
+              3085,
+              2708,
+              2809,
+              2117,
+              2000,
+              1455,
+              1210,
+              719,
+              733,
+              944,
+              2285,
+              2208,
+              3372,
+              3936,
+              3693,
+              2962,
+              2810,
+              3519,
+              2455,
+              2610,
+              2719,
+              2484,
+              2078
+            ]
+          },
+          {
+            name: "订单量",
+            type: "line",
+            symbolSize: 10,
+            symbol: "circle",
+            itemStyle: {
+              color: "#c257F6"
+            },
+            markPoint: {
+              label: {
+                normal: {
+                  textStyle: {
+                    color: "#fff"
+                  }
+                }
+              },
+              data: [
+                {
+                  type: "max",
+                  name: "最大值"
+                },
+                {
+                  type: "min",
+                  name: "最小值"
+                }
+              ]
+            },
+            data: [
+              2136,
+              3693,
+              2962,
+              3810,
+              3519,
+              3484,
+              3915,
+              3823,
+              3455,
+              4310,
+              4019,
+              3433,
+              3544,
+              3885,
+              4208,
+              3372,
+              3484,
+              3915,
+              3748,
+              3675,
+              4009,
+              4433,
+              3544,
+              3285,
+              4208,
+              3372,
+              3484,
+              3915,
+              3823,
+              4265,
+              4298
+            ]
+          }
+        ]
+      });
+    },
+
+    drawLine3() {
+      // var xData = (function() {
+      //   var data = [];
+      //   for (var i = 1; i < 31; i++) {
+      //     data.push(i + "日");
+      //   }
+      //   return data;
+      // })();
+
+
+      
+      
     }
   }
 };
 </script>
 
-<style scoped>
+<style >
+.el-col{
+  text-align: center;
+}
 </style>
