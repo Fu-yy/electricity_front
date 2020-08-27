@@ -1,98 +1,114 @@
 <template>
   <div>
     <el-row :gutter="20">
-      <el-col :span="8">
-        <div id="testChart" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart2" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart2" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart3" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart3" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart4" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart4" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart5" :style="{ height: '500px'}"></div>
-      </el-col>
-
-      <el-col :span="8">
-        <div id="testChart6" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart5" :style="{ height: '800px'}"></div>
       </el-col>
 
-      <el-col :span="8">
-        <div id="testChart7" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart6" :style="{ height: '800px'}"></div>
       </el-col>
 
-      <el-col :span="8">
-        <div id="testChart8" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart7" :style="{ height: '800px'}"></div>
       </el-col>
 
-      <el-col :span="8">
-        <div id="testChart9" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart8" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart10" :style="{ height: '500px'}"></div>
+
+      <el-col :span="24">
+        <div id="testChart9" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart11" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart10" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart12" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart11" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart13" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart12" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart14" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart13" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart15" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart14" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart16" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart15" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart17" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart16" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart18" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart17" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart19" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart18" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart20" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart19" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart21" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart20" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart22" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart21" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart23" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart22" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart24" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart23" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart25" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart24" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart26" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart25" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart27" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart26" :style="{ height: '800px'}"></div>
       </el-col>
-      <el-col :span="8">
-        <div id="testChart28" :style="{ height: '500px'}"></div>
-      </el-col>      <el-col :span="8">
-        <div id="testChart29" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart27" :style="{ height: '800px'}"></div>
       </el-col>
-            <el-col :span="8">
-        <div id="testChart29" :style="{ height: '500px'}"></div>
+      <el-col :span="24">
+        <div id="testChart28" :style="{ height: '800px'}"></div>
+      </el-col>
+      <el-col :span="24">
+        <div id="testChart29" :style="{ height: '800px'}"></div>
+      </el-col>
+      <el-col :span="24">
+        <div id="testChart30" :style="{ height: '800px'}"></div>
+      </el-col>
+      <el-col :span="24">
+        <div id="testChart31" :style="{ height: '800px'}"></div>
+      </el-col>
+      <el-col :span="24">
+        <div id="testChart32" :style="{ height: '800px'}"></div>
+      </el-col>
+      <el-col :span="24">
+        <div id="testChart33" :style="{ height: '800px'}"></div>
+      </el-col>
+       <el-col :span="24">
+        <div id="testChart34" :style="{ height: '800px'}"></div>
+      </el-col>
+       <el-col :span="24">
+        <div id="testChart35" :style="{ height: '800px'}"></div>
       </el-col>
     </el-row>
   </div>
@@ -131,6 +147,12 @@ export default {
     this.drawChart27();
     this.drawChart28();
     this.drawChart29();
+    this.drawChart30();
+    this.drawChart31();
+    this.drawChart32();
+    this.drawChart33();
+    this.drawChart34();
+    this.drawChart35();
     var that = this;
     window.onresize = function() {
       that.$echarts.init(document.getElementById("testChart")).resize();
@@ -162,6 +184,12 @@ export default {
       that.$echarts.init(document.getElementById("testChart27")).resize();
       that.$echarts.init(document.getElementById("testChart28")).resize();
       that.$echarts.init(document.getElementById("testChart29")).resize();
+      that.$echarts.init(document.getElementById("testChart30")).resize();
+      that.$echarts.init(document.getElementById("testChart31")).resize();
+      that.$echarts.init(document.getElementById("testChart32")).resize();
+      that.$echarts.init(document.getElementById("testChart33")).resize();
+      that.$echarts.init(document.getElementById("testChart34")).resize();
+      that.$echarts.init(document.getElementById("testChart35")).resize();
     };
   },
   methods: {
@@ -2517,7 +2545,7 @@ export default {
     },
     drawChart11() {
       let testChart11 = this.$echarts.init(
-        document.getElementById("testChart10")
+        document.getElementById("testChart11")
       );
       var option = {};
       var t = this;
@@ -6044,395 +6072,1708 @@ export default {
           }
         });
       });
-<<<<<<< HEAD
-=======
-    
->>>>>>> 2d87b6bc1391fbf9b63add3d38375ede3832c597
     },
-    drawChart29(){
-      let testChart29 = this.$echarts.init(document.getElementById("testChart29"));
+    drawChart29() {
+      let testChart29 = this.$echarts.init(
+        document.getElementById("testChart29")
+      );
       var t = this;
       var option = {};
-<<<<<<< HEAD
+
       //	得到仪表盘
-	let axisLine = {
-		show: false,
-		lineStyle: {
-			width: 10,
-			shadowBlur: 0,
-			color: [
-				[0.2, '#6ff2c2'],
-				[0.4, '#c2fb83'],
-				[0.6, '#eadc57'],
-				[0.8, '#fab272'],
-				[1, '#ff776b']
-			]
-		}
-	}
-	let textStyle = {
-		fontWeight: 'normal',
-		fontSize: 16,
-		color: "#fff"
-	}
-	let axisLineZhou = { // 坐标轴线  
-		lineStyle: {
-			color: [
-				[0.66, '#dddddd'],
-				[1, '#dddddd']
-			], // 属性lineStyle控制线条样式  
-			width: 2
-		}
-	}
-	//仪表盘刻度
-	let axisTicks = {
-		show: true,
-		lineStyle: {
-			color: '#1b8586',
-			width: 1
-		},
-		length: -5,
-		splitNumber: 8
-	}
-	let splitLines = {
-		show: true,
-		length: -10,
-		lineStyle: {
-			color: '#1b8586',
-		}
-	}
-	let zuoBiaoAxisLabel = {
-		distance: -15,
-		textStyle: {
-			color: "#03B7C9",
-			fontSize: "8"
-		}
-	}
-	let details = { //表盘的数据,字体颜色也在这里进行修改
-		show: true,
-		offsetCenter: [0, '90%'],
-		textStyle: {
-			fontSize: 18,
-			color: "#ff7705",
-			padding:[20,0,0,0]
-		}
-	}
-	let Heightdetails =  { //表盘的数据,字体颜色也在这里进行修改,高危部分的修改
-		show: true,
-		offsetCenter: [0, '90%'],
-		textStyle: {
-			fontSize: 18,
-			color: "#ff7705",
-		}
-	}
-	var myRate1 = 1000;
-	option = {
-		title: [{
-			x: "21%",
-			bottom:'28%',
-			text: '中危攻击',
-			textStyle: textStyle,
-		}, {
-			x: "47%",
-			bottom: '28%',
-			text: '高危攻击',
-			textStyle: textStyle,
-		}, {
-			x: "70%",
-			bottom: '28%',
-			text: '低危攻击',
-			textStyle: textStyle,
-		}],
-		backgroundColor:"#013954",
-		series: [{ //高危攻击
-			type: 'gauge',
-			center: ['50%', '50%'], // 默认全局居中  
-			radius: '38%',
-			splitNumber: 8, //刻度数量
-			min: 0,
-			max: 1000,
-			startAngle: 200,
-			endAngle: -20,
-			clockwise: true,
-			axisLine: {
-				show: true,
-				lineStyle: {
-					width: 2,
-					shadowBlur: 0,
-					color: [
-						[1, '#1b8586']
-					]
-				}
-			},
-			axisTick: axisTicks,
-			splitLine: splitLines,
-			axisLabel: zuoBiaoAxisLabel,
-			pointer: { //仪表盘指针
-				show: 0
-			},
-			detail: {
-				show: false
-			},
-			data: [{
-				name: "",
-				value: myRate1
-			}]
-		}, { //高危攻击
-			startAngle: 200,
-			endAngle: -20,
-			type: 'gauge',
-			center: ['50%', '50%'], // 默认全局居中  
-			radius: '31%',
-			min: 0,
-			max: 1000,
-			splitNumber: 0,
-			axisLine: axisLineZhou, // 坐标轴线  ,
-			axisLabel: { // 坐标轴小标记  
-				show: false,
-			},
-			splitLine: { // 分隔线  
-				length: 10, // 属性length控制线长  
-				lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式  
-					width: 0,
-					color: '#444'
-				}
-			},
-			pointer: { // 分隔线 指针  
-				color: '#666666',
-				width: 0,
-				length: 230
-			},
-			detail: {
-				show: false
-			},
-		}, { //高危攻击
-			type: 'gauge',
-			startAngle: 200,
-			endAngle: -20,
-			radius: '25%',
-			center: ['50%', '50%'], // 默认全局居中  
-			min: 0,
-			max: 1000,
-			axisLine: axisLine,
-			axisTick: {
-				show: false
-			},
-			splitLine: {
-				show: false,
-				length: 20,
-			},
-			axisLabel: {
-				show: false
-			},
-			pointer: {
-				show: true,
-			},
-			detail: Heightdetails,
-			itemStyle: {
-				normal: {
-					color: "#09c2c0",
-				}
-			},
-			data: [{
-				value: 9999
-			}]
-		}, {
-			type: 'gauge',
-			center: ['25%', '50%'], // 默认全局居中  
-			radius: '35%',
-			splitNumber: 8, //刻度数量
-			min: 0,
-			max: 1000,
-			endAngle: 45,
-			clockwise: true,
-			axisLine: {
-				show: true,
-				lineStyle: {
-					width: 2,
-					shadowBlur: 0,
-					color: [
-						[1, '#1b8586']
-					]
-				}
-			},
-			axisTick: axisTicks,
-			splitLine: splitLines,
-			axisLabel: zuoBiaoAxisLabel,
-			pointer: { //仪表盘指针
-				show: 0
-			},
-			detail: {
-				show: false,
-				textStyle: { // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-					color: '#f00',
-					fontSize: 14
-				},
-			},
-			data: [{
-				name: "",
-				value: myRate1
-			}]
-		}, {
-			type: 'gauge',
-			center: ['25%', '50%'], // 默认全局居中  
-			radius: '30%',
-			min: 0,
-			max: 1000,
-			endAngle: 45,
-			splitNumber: 0,
-			axisLine: axisLineZhou, // 坐标轴线  ,
-			axisLabel: { // 坐标轴小标记  
-				show: false
-			},
-			splitLine: { // 分隔线  
-				length: 10, // 属性length控制线长  
-				lineStyle: { // 属性lineStyle（详见lineStyle）控制线条样式  
-					width: 0,
-					color: '#444'
-				}
-			},
-			pointer: { // 分隔线 指针  
-				color: '#666666',
-				width: 0,
-				length: 230
-			},
-			detail: {
-				show: false
-			},
-		}, {
-			name: '中危攻击',
-			type: 'gauge',
-			endAngle: 45,
-			radius: '25%',
-			center: ['25%', '50%'], // 默认全局居中  
-			min: 0,
-			max: 7000,
-			axisLine: axisLine,
-			axisTick: {
-				show: false,
-			},
-			splitLine: {
-				show: false,
-				length: 20,
-			},
+      let axisLine = {
+        show: false,
+        lineStyle: {
+          width: 10,
+          shadowBlur: 0,
+          color: [
+            [0.2, "#6ff2c2"],
+            [0.4, "#c2fb83"],
+            [0.6, "#eadc57"],
+            [0.8, "#fab272"],
+            [1, "#ff776b"]
+          ]
+        }
+      };
+      let textStyle = {
+        fontWeight: "normal",
+        fontSize: 16,
+        color: "#fff"
+      };
+      let axisLineZhou = {
+        // 坐标轴线
+        lineStyle: {
+          color: [
+            [0.66, "#dddddd"],
+            [1, "#dddddd"]
+          ], // 属性lineStyle控制线条样式
+          width: 2
+        }
+      };
+      //仪表盘刻度
+      let axisTicks = {
+        show: true,
+        lineStyle: {
+          color: "#1b8586",
+          width: 1
+        },
+        length: -5,
+        splitNumber: 8
+      };
+      let splitLines = {
+        show: true,
+        length: -10,
+        lineStyle: {
+          color: "#1b8586"
+        }
+      };
+      let zuoBiaoAxisLabel = {
+        distance: -15,
+        textStyle: {
+          color: "#03B7C9",
+          fontSize: "8"
+        }
+      };
+      let details = {
+        //表盘的数据,字体颜色也在这里进行修改
+        show: true,
+        offsetCenter: [0, "90%"],
+        textStyle: {
+          fontSize: 18,
+          color: "#ff7705",
+          padding: [20, 0, 0, 0]
+        }
+      };
+      let Heightdetails = {
+        //表盘的数据,字体颜色也在这里进行修改,高危部分的修改
+        show: true,
+        offsetCenter: [0, "90%"],
+        textStyle: {
+          fontSize: 18,
+          color: "#ff7705"
+        }
+      };
+      var myRate1 = 1000;
+      option = {
+        title: [
+          {
+            x: "21%",
+            bottom: "28%",
+            text: "中危攻击",
+            textStyle: textStyle
+          },
+          {
+            x: "47%",
+            bottom: "28%",
+            text: "高危攻击",
+            textStyle: textStyle
+          },
+          {
+            x: "70%",
+            bottom: "28%",
+            text: "低危攻击",
+            textStyle: textStyle
+          }
+        ],
+        backgroundColor: "#013954",
+        series: [
+          {
+            //高危攻击
+            type: "gauge",
+            center: ["50%", "50%"], // 默认全局居中
+            radius: "38%",
+            splitNumber: 8, //刻度数量
+            min: 0,
+            max: 1000,
+            startAngle: 200,
+            endAngle: -20,
+            clockwise: true,
+            axisLine: {
+              show: true,
+              lineStyle: {
+                width: 2,
+                shadowBlur: 0,
+                color: [[1, "#1b8586"]]
+              }
+            },
+            axisTick: axisTicks,
+            splitLine: splitLines,
+            axisLabel: zuoBiaoAxisLabel,
+            pointer: {
+              //仪表盘指针
+              show: 0
+            },
+            detail: {
+              show: false
+            },
+            data: [
+              {
+                name: "",
+                value: myRate1
+              }
+            ]
+          },
+          {
+            //高危攻击
+            startAngle: 200,
+            endAngle: -20,
+            type: "gauge",
+            center: ["50%", "50%"], // 默认全局居中
+            radius: "31%",
+            min: 0,
+            max: 1000,
+            splitNumber: 0,
+            axisLine: axisLineZhou, // 坐标轴线  ,
+            axisLabel: {
+              // 坐标轴小标记
+              show: false
+            },
+            splitLine: {
+              // 分隔线
+              length: 10, // 属性length控制线长
+              lineStyle: {
+                // 属性lineStyle（详见lineStyle）控制线条样式
+                width: 0,
+                color: "#444"
+              }
+            },
+            pointer: {
+              // 分隔线 指针
+              color: "#666666",
+              width: 0,
+              length: 230
+            },
+            detail: {
+              show: false
+            }
+          },
+          {
+            //高危攻击
+            type: "gauge",
+            startAngle: 200,
+            endAngle: -20,
+            radius: "25%",
+            center: ["50%", "50%"], // 默认全局居中
+            min: 0,
+            max: 1000,
+            axisLine: axisLine,
+            axisTick: {
+              show: false
+            },
+            splitLine: {
+              show: false,
+              length: 20
+            },
+            axisLabel: {
+              show: false
+            },
+            pointer: {
+              show: true
+            },
+            detail: Heightdetails,
+            itemStyle: {
+              normal: {
+                color: "#09c2c0"
+              }
+            },
+            data: [
+              {
+                value: 9999
+              }
+            ]
+          },
+          {
+            type: "gauge",
+            center: ["25%", "50%"], // 默认全局居中
+            radius: "35%",
+            splitNumber: 8, //刻度数量
+            min: 0,
+            max: 1000,
+            endAngle: 45,
+            clockwise: true,
+            axisLine: {
+              show: true,
+              lineStyle: {
+                width: 2,
+                shadowBlur: 0,
+                color: [[1, "#1b8586"]]
+              }
+            },
+            axisTick: axisTicks,
+            splitLine: splitLines,
+            axisLabel: zuoBiaoAxisLabel,
+            pointer: {
+              //仪表盘指针
+              show: 0
+            },
+            detail: {
+              show: false,
+              textStyle: {
+                // 其余属性默认使用全局文本样式，详见TEXTSTYLE
+                color: "#f00",
+                fontSize: 14
+              }
+            },
+            data: [
+              {
+                name: "",
+                value: myRate1
+              }
+            ]
+          },
+          {
+            type: "gauge",
+            center: ["25%", "50%"], // 默认全局居中
+            radius: "30%",
+            min: 0,
+            max: 1000,
+            endAngle: 45,
+            splitNumber: 0,
+            axisLine: axisLineZhou, // 坐标轴线  ,
+            axisLabel: {
+              // 坐标轴小标记
+              show: false
+            },
+            splitLine: {
+              // 分隔线
+              length: 10, // 属性length控制线长
+              lineStyle: {
+                // 属性lineStyle（详见lineStyle）控制线条样式
+                width: 0,
+                color: "#444"
+              }
+            },
+            pointer: {
+              // 分隔线 指针
+              color: "#666666",
+              width: 0,
+              length: 230
+            },
+            detail: {
+              show: false
+            }
+          },
+          {
+            name: "中危攻击",
+            type: "gauge",
+            endAngle: 45,
+            radius: "25%",
+            center: ["25%", "50%"], // 默认全局居中
+            min: 0,
+            max: 7000,
+            axisLine: axisLine,
+            axisTick: {
+              show: false
+            },
+            splitLine: {
+              show: false,
+              length: 20
+            },
 
-			axisLabel: {
-				show: false
-			},
-			pointer: {
-				show: true,
-				width:5
-			},
-			detail: details,
-			itemStyle: {
-				normal: {
-					color: "#09c2c0",
-				}
-			},
-			data: [{
-				value: 6162
-			}]
-		}, {
-			type: 'gauge',
-			center: ['73%', '50%'], // 默认全局居中  
-			radius: '35%',
-			splitNumber: 8, //刻度数量
-			min: 0,
-			max: 1000,
-			startAngle: 140,
-			endAngle: -45,
-			clockwise: true,
-			axisLine: {
-				show: true,
-				lineStyle: {
-					width: 2,
-					shadowBlur: 0,
-					color: [
-						[1, '#1b8586']
-					]
-				}
-			},
-			axisTick: axisTicks,
-			splitLine: splitLines,
-			axisLabel: zuoBiaoAxisLabel,
-			pointer: { //仪表盘指针
-				show: 0
-			},
-			detail: {
-				show: false
-			},
-			data: [{
-				name: "",
-				value: myRate1
-			}]
-		}, {
-			type: 'gauge',
-			center: ['73%', '50%'], // 默认全局居中  
-			radius: '30%',
-			min: 0,
-			max: 1000,
-			startAngle: 140,
-			endAngle: -45,
-			splitNumber: 0,
-			axisLine: axisLineZhou, // 坐标轴线  ,
-			axisLabel: { // 坐标轴小标记  
-				show: false,
-			},
-			splitLine: { // 分隔线  
-				show: false,
-			},
-			pointer: { // 分隔线 指针  
-				color: '#666666',
-				width: 0,
-				length: 230
-			},
-			detail: {
-				show: false
-			},
-		}, {
-			name: '低危攻击',
-			type: 'gauge',
-			startAngle: 140,
-			endAngle: -45,
-			radius: '25%',
-			center: ['73%', '50%'], // 默认全局居中  
-			min: 0,
-			max: 1000,
-			axisLine: axisLine,
-			axisTick: {
-				show: false
-			},
-			splitLine: {
-				show: false,
-				length: 20,
+            axisLabel: {
+              show: false
+            },
+            pointer: {
+              show: true,
+              width: 5
+            },
+            detail: details,
+            itemStyle: {
+              normal: {
+                color: "#09c2c0"
+              }
+            },
+            data: [
+              {
+                value: 6162
+              }
+            ]
+          },
+          {
+            type: "gauge",
+            center: ["73%", "50%"], // 默认全局居中
+            radius: "35%",
+            splitNumber: 8, //刻度数量
+            min: 0,
+            max: 1000,
+            startAngle: 140,
+            endAngle: -45,
+            clockwise: true,
+            axisLine: {
+              show: true,
+              lineStyle: {
+                width: 2,
+                shadowBlur: 0,
+                color: [[1, "#1b8586"]]
+              }
+            },
+            axisTick: axisTicks,
+            splitLine: splitLines,
+            axisLabel: zuoBiaoAxisLabel,
+            pointer: {
+              //仪表盘指针
+              show: 0
+            },
+            detail: {
+              show: false
+            },
+            data: [
+              {
+                name: "",
+                value: myRate1
+              }
+            ]
+          },
+          {
+            type: "gauge",
+            center: ["73%", "50%"], // 默认全局居中
+            radius: "30%",
+            min: 0,
+            max: 1000,
+            startAngle: 140,
+            endAngle: -45,
+            splitNumber: 0,
+            axisLine: axisLineZhou, // 坐标轴线  ,
+            axisLabel: {
+              // 坐标轴小标记
+              show: false
+            },
+            splitLine: {
+              // 分隔线
+              show: false
+            },
+            pointer: {
+              // 分隔线 指针
+              color: "#666666",
+              width: 0,
+              length: 230
+            },
+            detail: {
+              show: false
+            }
+          },
+          {
+            name: "低危攻击",
+            type: "gauge",
+            startAngle: 140,
+            endAngle: -45,
+            radius: "25%",
+            center: ["73%", "50%"], // 默认全局居中
+            min: 0,
+            max: 1000,
+            axisLine: axisLine,
+            axisTick: {
+              show: false
+            },
+            splitLine: {
+              show: false,
+              length: 20
+            },
+            axisLabel: {
+              show: false
+            },
+            pointer: {
+              show: true,
+              width: 5
+            },
+            detail: details,
+            itemStyle: {
+              normal: {
+                color: "#09c2c0"
+              }
+            },
+            data: [
+              {
+                value: 607
+              }
+            ]
+          }
+        ]
+      };
 
-			},
-			axisLabel: {
-				show: false
-			},
-			pointer: {
-				show: true,
-				width:5
-			},
-			detail: details,
-			itemStyle: {
-				normal: {
-					color: "#09c2c0",
-				}
-			},
-			data: [{
-				value: 607
-			}]
-		}]
-	};
+      testChart29.setOption(option);
+    },
+    drawChart30() {
+      let testChart30 = this.$echarts.init(
+        document.getElementById("testChart30")
+      );
+      var t = this;
+      var option = {};
 
-testChart29.setOption(option);
+      var xData = (function() {
+        var data = [];
+        for (var i = 1; i < 13; i++) {
+          data.push(i + "月份");
+        }
+        return data;
+      })();
 
-=======
+      option = {
+        backgroundColor: "#152439",
+        tooltip: {
+          axisPointer: {
+            type: "shadow",
+            textStyle: {
+              color: "#fff"
+            }
+          }
+        },
+        grid: {
+          borderWidth: 0,
+          top: 10,
+          bottom: 40,
+          left: 90,
+          textStyle: {
+            color: "#fff"
+          }
+        },
+        legend: {
+          icon: "circle",
+          right: "4%",
+          top: "8%",
+          textStyle: {
+            color: "#90979c"
+          },
+          data: ["一级", "二级", "三级"]
+        },
+        calculable: true,
+        xAxis: [
+          {
+            type: "value",
+            trigger: "axis",
+            axisLine: {
+              lineStyle: {
+                color: "#fff"
+              }
+            },
+            splitLine: {
+              show: false
+            },
+            axisTick: {
+              show: false
+            },
+            splitArea: {
+              show: false
+            },
+            axisLabel: {
+              interval: 0
+            },
+            data: xData
+          }
+        ],
+        yAxis: [
+          {
+            type: "category",
+            splitLine: {
+              show: false
+            },
+            axisLine: {
+              lineStyle: {
+                color: "#fff"
+              }
+            },
+            axisTick: {
+              show: false
+            },
+            axisLabel: {
+              interval: 0
+            },
+            splitArea: {
+              show: false
+            },
+            data: ["一级", "二级", "三级", "四级", "五级"]
+          }
+        ],
+        series: [
+          {
+            name: "一级",
+            type: "bar",
+            stack: "总量",
+            barMaxWidth: 15,
+            barGap: "10%",
+            itemStyle: {
+              normal: {
+                color: new t.$echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                  {
+                    offset: 0,
+                    color: "rgba(245,221,111,1)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(245,221,111,0)"
+                  }
+                ]),
+                borderColor: new t.$echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                  {
+                    offset: 0,
+                    color: "rgba(245,221,111,1)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(245,221,111,0)"
+                  }
+                ])
+              }
+            },
+            data: [709, 1917, 2455, 2610, 1719]
+          },
+          {
+            name: "二级",
+            type: "bar",
+            stack: "总量",
+            itemStyle: {
+              normal: {
+                color: new t.$echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                  {
+                    offset: 0,
+                    color: "rgba(24,191,207,1)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(24,191,207,0)"
+                  }
+                ]),
+                borderColor: new t.$echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                  {
+                    offset: 0,
+                    color: "rgba(24,191,207,1)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(24,191,207,0)"
+                  }
+                ])
+              }
+            },
+            data: [327, 1776, 507, 1200, 800]
+          },
+          {
+            name: "三级",
+            type: "bar",
+            stack: "总量",
+            itemStyle: {
+              normal: {
+                color: new t.$echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                  {
+                    offset: 0,
+                    color: "rgba(98,113,228,1)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(40,54,117,0)"
+                  }
+                ]),
+                borderColor: new t.$echarts.graphic.LinearGradient(1, 0, 0, 0, [
+                  {
+                    offset: 0,
+                    color: "rgba(98,113,228,1)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(40,54,117,0)"
+                  }
+                ]),
+                barBorderRadius: 0
+              }
+            },
+            data: [327, 1776, 507, 1200, 800]
+          }
+        ]
+      };
+      testChart30.setOption(option);
+    },
 
-    
->>>>>>> 2d87b6bc1391fbf9b63add3d38375ede3832c597
+    drawChart31() {
+      let testChart31 = this.$echarts.init(
+        document.getElementById("testChart31")
+      );
+      var option = {};
+      var t = this;
 
+      //字符串截取
+      var wordLength = value => {
+        var ret = ""; //拼接加\n返回的类目项
+        var maxLength = 4; //每项显示文字个数
+        var valLength = value.length; //X轴类目项的文字个数
+        var rowN = Math.ceil(valLength / maxLength); //类目项需要换行的行数
+        if (rowN > 1) {
+          //如果类目项的文字大于3,
+          for (var i = 0; i < rowN; i++) {
+            var temp = ""; //每次截取的字符串
+            var start = i * maxLength; //开始截取的位置
+            var end = start + maxLength; //结束截取的位置
+            //这里也可以加一个是否是最后一行的判断，但是不加也没有影响，那就不加吧
+            temp = value.substring(start, end) + "\n";
+            ret += temp; //凭借最终的字符串
+          }
+          return ret;
+        } else {
+          return value;
+        }
+      };
+      //
+      var data = [
+        {
+          name: "职工家属",
+          value: "12355"
+        },
+        {
+          name: "新增落户农民",
+          value: "12093"
+        },
+        {
+          name: "公司员工",
+          value: "8874"
+        },
+        {
+          name: "农场职工",
+          value: "7427"
+        },
+        {
+          name: "其它",
+          value: "4308"
+        }
+      ];
+      //偏移量
+      var offsetData = [
+        [80, 53],
+        [35, 73],
+        [30, 33],
+        [60, 33],
+        [10, 48]
+      ];
+      //symbolSize 散点气泡大小
+      var symbolSizeData = [200, 185, 175, 165, 135];
+      //
+      //循环定义series的data值
+      var datas = [];
+      for (var i = 0; i < data.length; i++) {
+        var item = data[i];
+        //var itemToStyle = datalist[i];
 
+        datas.push({
+          name: wordLength(item.name) + "\n" + item.value + "人",
+          value: offsetData[i],
+          symbolSize: symbolSizeData[i],
+          label: {
+            normal: {
+              textStyle: {
+                fontSize: 14
+              }
+            }
+          },
+          itemStyle: {
+            normal: {
+              color: new t.$echarts.graphic.RadialGradient(0.3, 0.5, 0.7, [
+                {
+                  offset: 0,
+                  color: "rgba(4,88,120,0)"
+                },
+                {
+                  offset: 1,
+                  color: "rgba(1,98,156,0.6)"
+                }
+              ]),
+              opacity: 0.8,
+              shadowColor: "#045878",
+              shadowBlur: 10,
+              shadowOffsetX: 1,
+              shadowOffsetY: 1
+            }
+          }
+        });
+      }
+
+      var option = {
+        //   backgroundColor: "transparent",
+        backgroundColor: "#0e2147",
+        grid: {
+          show: false,
+          top: 10,
+          bottom: 10
+        },
+        xAxis: [
+          {
+            gridIndex: 0,
+            type: "value",
+            show: false,
+            min: 0,
+            max: 100,
+            nameLocation: "middle",
+            nameGap: 5
+          }
+        ],
+        yAxis: [
+          {
+            gridIndex: 0,
+            min: 0,
+            show: false,
+            max: 100,
+            nameLocation: "middle",
+            nameGap: 30
+          }
+        ],
+
+        series: [
+          {
+            type: "scatter",
+            symbol: "circle",
+            symbolSize: 120,
+            label: {
+              normal: {
+                show: true,
+                formatter: "{b}",
+                color: "#fff",
+                textStyle: {
+                  fontSize: "20"
+                }
+              }
+            },
+
+            itemStyle: {
+              normal: {
+                color: "#00acea"
+              }
+            },
+            data: datas
+          }
+        ]
+      };
+      testChart31.setOption(option);
+    },
+
+    drawChart32() {
+      let testChart32 = this.$echarts.init(
+        document.getElementById("testChart32")
+      );
+      var option = {};
+      var t = this;
+
+      var plantCap = [
+        {
+          name: "具有相关企业资质证书",
+          value: "22342个"
+        },
+        {
+          name: "三年内无违法违规记录",
+          value: "29821个"
+        },
+        {
+          name: "企业注册资产超过300w",
+          value: "12919个"
+        },
+        {
+          name: "不接受联合投标",
+          value: "22314个"
+        },
+        {
+          name: "本项目不得转包、分包",
+          value: "22903个"
+        },
+        {
+          name: "具有独立承担民事责任能力",
+          value: "22391个"
+        },
+        {
+          name: "投标人财产没有处于被接管、冻结或处于破产状态",
+          value: "15781个"
+        }
+      ];
+
+      var datalist = [
+        {
+          offset: [50, 50],
+          symbolSize: 120,
+          opacity: 0.95,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#29c0fb"
+            },
+            {
+              offset: 1,
+              color: "#2dc5b9"
+            }
+          ])
+        },
+        {
+          offset: [38, 70],
+          symbolSize: 95,
+          opacity: 0.95,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#35d17e"
+            },
+            {
+              offset: 1,
+              color: "#49ddb2"
+            }
+          ])
+        },
+        {
+          offset: [23, 43],
+          symbolSize: 90,
+          opacity: 0.95,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#e5d273"
+            },
+            {
+              offset: 1,
+              color: "#e4a37f"
+            }
+          ])
+        },
+        {
+          offset: [68, 40],
+          symbolSize: 90,
+          opacity: 0.95,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#277aec"
+            },
+            {
+              offset: 1,
+              color: "#57c5ec"
+            }
+          ])
+        },
+        {
+          offset: [38, 20],
+          symbolSize: 65,
+          opacity: 0.95,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#e54948"
+            },
+            {
+              offset: 1,
+              color: "#f08456"
+            }
+          ])
+        },
+        {
+          offset: [56, 15],
+          symbolSize: 68,
+          opacity: 0.7,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#11c46e"
+            },
+            {
+              offset: 1,
+              color: "#f08456"
+            }
+          ])
+        },
+        {
+          offset: [65, 75],
+          symbolSize: 65,
+          opacity: 0.68,
+          color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            {
+              offset: 0,
+              color: "#ff4141"
+            },
+            {
+              offset: 1,
+              color: "#ff8989"
+            }
+          ])
+        }
+      ];
+      var datas = [];
+      for (var i = 0; i < plantCap.length; i++) {
+        var item = plantCap[i];
+        var itemToStyle = datalist[i];
+        datas.push({
+          name: item.name + "\n" + item.value,
+          value: itemToStyle.offset,
+          symbolSize: itemToStyle.symbolSize,
+          label: {
+            normal: {
+              textStyle: {
+                fontSize: 13,
+                lineHeight: 17
+              }
+            }
+          },
+          itemStyle: {
+            normal: {
+              color: itemToStyle.color,
+              opacity: itemToStyle.opacity
+            }
+          }
+        });
+      }
+      option = {
+        backgroundColor: "#20203e",
+        grid: {
+          show: false,
+          top: 10,
+          bottom: 10
+        },
+        xAxis: [
+          {
+            gridIndex: 0,
+            type: "value",
+            show: false,
+            min: 0,
+            max: 100,
+            nameLocation: "middle",
+            nameGap: 5
+          }
+        ],
+        yAxis: [
+          {
+            gridIndex: 0,
+            min: 0,
+            show: false,
+            max: 100,
+            nameLocation: "middle",
+            nameGap: 30
+          }
+        ],
+        series: [
+          {
+            type: "scatter",
+            symbol: "circle",
+            symbolSize: 120,
+            label: {
+              normal: {
+                show: true,
+                formatter: "{b}",
+                color: "#fff",
+                textStyle: {
+                  fontSize: "20"
+                }
+              }
+            },
+            itemStyle: {
+              normal: {
+                color: "#00acea"
+              }
+            },
+            data: datas
+          }
+        ]
+      };
+      testChart32.setOption(option);
+    },
+    drawChart33() {
+      let testChart33 = this.$echarts.init(
+        document.getElementById("testChart33")
+      );
+      var option = {};
+      var t = this;
+
+      var xData = (function() {
+        var data = [
+          "新福利",
+          "溢通公司",
+          "南沙巴士",
+          "从化分公司",
+          "花都恒通",
+          "二巴一分",
+          "二巴二分",
+          "番禺片区",
+          "佛广集团",
+          "客运旅包"
+        ];
+        return data;
+      })();
+
+      option = {
+        backgroundColor: "RGBA(7, 28, 51, 1)",
+        legend: {
+          data: ["岗前培训", "安全例会", "技术培训", "教育约谈", "其它"],
+          left: "15%",
+          top: 20,
+          itemWidth: 60,
+          itemHeight: 30,
+          type: "plain",
+          textStyle: {
+            color: "RGBA(154, 209, 253, 1)"
+          }
+        },
+        tooltip: {
+          trigger: "axis",
+          axisPointer: {
+            type: "shadow",
+            textStyle: {
+              color: "#fff"
+            }
+          }
+        },
+        grid: {
+          borderWidth: 0,
+          top: 110,
+          bottom: 95,
+          textStyle: {
+            color: "#fff"
+          }
+        },
+        calculable: true,
+        xAxis: [
+          {
+            type: "category",
+            axisLine: {
+              lineStyle: {
+                color: "rgba(255,255,255,.5)"
+              }
+            },
+            splitLine: {
+              show: false
+            },
+            axisTick: {
+              show: false
+            },
+            splitArea: {
+              show: false
+            },
+            axisLabel: {
+              interval: 0,
+              color: "rgba(255,255,255,0.7)",
+              fontSize: 18
+            },
+            data: xData
+          }
+        ],
+        yAxis: [
+          {
+            type: "value",
+            splitLine: {
+              show: true,
+              lineStyle: {
+                type: "dashed",
+                color: "RGBA(3, 75, 97, 1)"
+              }
+            },
+            axisLine: {
+              show: false
+            },
+            axisTick: {
+              show: false
+            },
+            axisLabel: {
+              interval: 0,
+              color: "rgba(255,255,255,0.5)",
+              fontSize: 20
+            },
+            splitArea: {
+              show: false
+            }
+          },
+          {
+            type: "value",
+            splitLine: {
+              show: false
+            },
+            min: 0,
+            axisLabel: {
+              interval: 0,
+              color: "rgba(255,255,255,0.5)",
+              fontSize: 20
+            }
+          }
+        ],
+        series: [
+          {
+            name: "岗前培训",
+            type: "bar",
+            stack: "1",
+            barMaxWidth: 35,
+            barGap: "10%",
+            itemStyle: {
+              normal: {
+                color: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(0, 214, 255, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                opacity: 1,
+                borderColor: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(0, 214, 255, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                borderWidth: 4
+              }
+            },
+            data: [16, 11, 8, 14, 17, 16, 11, 8, 14, 17]
+          },
+
+          {
+            name: "安全例会",
+            type: "bar",
+            stack: "2",
+            itemStyle: {
+              normal: {
+                color: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(48, 112, 255, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                opacity: 1,
+                borderColor: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(48, 112, 255, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                borderWidth: 4
+              }
+            },
+            data: [9, 7, 3, 2, 6, 9, 7, 3, 2, 6]
+          },
+          {
+            name: "技术培训",
+            type: "bar",
+            stack: "3",
+            barMaxWidth: 35,
+            barGap: "40%",
+            itemStyle: {
+              normal: {
+                color: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(255, 0, 132, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                opacity: 1,
+                borderColor: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(255, 0, 132, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                borderWidth: 4
+              }
+            },
+            data: [13, 19, 6, 12, 15, 13, 19, 6, 12, 15]
+          },
+          {
+            name: "教育约谈",
+            type: "bar",
+            stack: "4",
+            barMaxWidth: 35,
+            barGap: "40%",
+            itemStyle: {
+              normal: {
+                color: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(192, 0, 255, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                opacity: 1,
+                borderColor: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(192, 0, 255, 0.6)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(83, 14, 224, 0.15)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                },
+                borderWidth: 4
+              }
+            },
+            data: [13, 19, 6, 12, 15, 13, 19, 6, 12, 15]
+          },
+          {
+            name: "其它",
+            type: "line",
+            yAxisIndex: 1,
+            symbolSize: 10,
+            symbol: "emptyCircle",
+            itemStyle: {
+              normal: {
+                color: "rgba(0, 255, 180, 1)",
+                barBorderRadius: "100%"
+              },
+              borderWidth: 5
+            },
+            lineStyle: {
+              normal: {
+                width: 3,
+                color: {
+                  type: "linear",
+                  x: 0,
+                  y: 0,
+                  x2: 0,
+                  y2: 1,
+                  colorStops: [
+                    {
+                      offset: 0,
+                      color: "rgba(0, 255, 180, 0.5)" // 0% 处的颜色
+                    },
+                    {
+                      offset: 1,
+                      color: "rgba(0, 255, 180, 0.5)" // 100% 处的颜色
+                    }
+                  ],
+                  global: false // 缺省为 false
+                }
+              }
+            },
+            data: [28, 20, 15, 10, 9, 7, 6, 4, 3, 0]
+          }
+        ]
+      };
+      testChart33.setOption(option);
+    },
+
+    drawChart34() {
+      let testChart34 = this.$echarts.init(
+        document.getElementById("testChart34")
+      );
+      var option = {};
+      var t = this;
+
+      // 纹理
+      var piePane =
+        "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gAUU29mdHdhcmU6IFNuaXBhc3Rl/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU/8AAEQgAWgAgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A/P8AuLiRv7Szewvv2bsKP3v+79KebmX7VI32+HJtdu/aMEf3PrTLhJR/aebe1XGzdt/g/wBz+tPMc32qQfZrQH7LkrxtA/vD/ar733r9fx7y8/6+8+W923T8Oy/r+kNtriVZdOIvoU2IwVio/dcdG+tRxTyC3tQLyJQtxuCkcoc/ePtUltHKZdNxbWrEo20N0fj+P3qOJJPs9riC2INzgMcZY5+63+zU+9br+P8Ad8/6+4el/wDhv739f0wngQf2hjT3j2bcZc/ufr65pxt0Fy4/s1xi23bPMPB/v/T2qOYw/wCnbWuz93Zu7/7/APSnEwfaH+a92/Z/+BbvQ/7NT7t+n4d5eX9fdatbf8P2Xn/X33W3t0aSwB055N6sSocjzuOo9MVHHCpgtibFmJn2l9/3x/c9vrToDB5ljl7wDa2/Z1HH8HtTIzEIbfLXW7z/AJgOmM/w/wC1U6W6fh/d8v6++71/q/n5/wBfdaWecH+0f+JiZN+3/lnjzv8ADFONwPtMh/tPP+jbd/l9f+mf/wBei4M3/EzzJaH7m/b/ABf7n9aeTN9qkzLZbvsvJ/h2+g/2q01v/wAP3l/e/r7240t/w3ZeX9flHbzhZNPP9omPYrDd5efJ46e+ajjmxBbD7ft23G7Zszs/2/f6VPbGbzdNxJZg7G2F+i8fx+9RRGX7Pa4ktdv2n5Q33gc9W/2aWtv+H/u/3v6+6z0v/wAN/e8v6/N1xbuv9pZsI02bc4cHyfp65p5tpPtUi/2dGCLXds3jAH9/6+1QTRRj7fi1uV27du7P7v8A36cYYvtDj7JdAfZ87TnIP94/7NGl/wCu8v7v9fgjp/XZf3v6/N9vbO0ungafHJvRsKXH77jqfTFRxwObe1P2JGDXG0NuHznP3D7e9EEURksc2t0wZW3Bc5k46rTI4ozDbk29wSZ8Fh0YZ+6P9qp6f1/d/u/1/wClP+v/AEr+9/X5Omnjb7fi8nfft25B/e/730pxuIvtDn7dPj7PtD4OSf7n0p9xcSN/aWb2F9+zdhR+9/3fpTzcy/apG+3wkm1279owR/c+tV1/rvL+9/X4tdP67L+7/X4KCCeMSWJN7OgRW3FQcxcdF+tMjmjEFuDdzKVn3FQOEH94e9WLe4lWXTiL6FNiMFYqP3XHRqjinkFvagXkShbncFI5Q5+8fal0/r+7/e/r/wBJf9f+lf3f6/N9wko/tPNvarjZv24+T/c/rTzHL9qkH2a0z9lyV42gf3h/tVkEDDcUEAE8dqx9trt+Xd+Xn/XTT2em/wDWnn5f111bZJTLpuLa1YlG2hsYfj+Oo4kk+z2uILYg3OAT1Y5+63+zWcoGV4pMDaOO9L2um39aeXl/XU9n5/1r5+f9dP/Z";
+      var piePatternImg = new Image();
+      piePatternImg.src = piePane;
+      var tipLine =
+        "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAADCAYAAAAQnhYVAAAAAXNSR0IArs4c6QAAAGNJREFUGBlj/P//vxIDAwMTEN9nZGT8C+QrANksQExv8Bxo/1eg/RJAi3mA+AUDkPMOiEFAFOQaIP0czKM/4Q+1fw3U6nBQCJ0CYj4g/g2SBILTQCwCZtGXeAe17iaQPg7EbwAOmKTp8gqpPgAAAABJRU5ErkJggg==";
+      var tipLineImg = new Image();
+      tipLineImg.src = tipLine;
+      option = {
+        backgroundColor: "#021622",
+        tooltip: {
+          trigger: "axis",
+          formatter: "{b}<br />{a0}: {c0}<br />{a1}: {c1}",
+          axisPointer: {
+            type: "shadow",
+            label: {
+              backgroundColor: "#6a7985"
+            }
+          },
+          textStyle: {
+            color: "#fff",
+            fontStyle: "normal",
+            fontFamily: "微软雅黑",
+            fontSize: 14
+          }
+        },
+        calculable: true,
+        grid: {
+          left: "2%",
+          right: "2%",
+          bottom: "0%",
+          top: "5%",
+          containLabel: true
+        },
+        xAxis: [
+          {
+            type: "category",
+            data: [1, 2, 3, 4, 5, 6, 7],
+            axisLabel: {
+              interval: 0,
+              textStyle: {
+                color: "#fff",
+                fontStyle: "normal",
+                fontFamily: "微软雅黑",
+                fontSize: 14
+              }
+            },
+            axisTick: {
+              show: false
+            },
+            axisLine: {
+              lineStyle: {
+                color: "#fff",
+                opacity: 0.2,
+                show: false
+              }
+            },
+            splitLine: {
+              show: false
+            }
+          }
+        ],
+        yAxis: [
+          {
+            type: "value",
+            splitNumber: 5,
+            axisLabel: {
+              textStyle: {
+                show: false,
+                color: "#a8aab0",
+                fontStyle: "normal",
+                fontFamily: "微软雅黑",
+                fontSize: 16
+              }
+            },
+            axisLine: {
+              show: false
+            },
+            axisTick: {
+              show: false
+            },
+            splitLine: {
+              show: true,
+              lineStyle: {
+                color: ["#fff"],
+                opacity: 0.06
+              }
+            }
+          }
+        ],
+        series: [
+          {
+            name: "今日空车",
+            type: "bar",
+            data: [1, 2, 3, 4, 5, 6, 7],
+            barWidth: 20,
+            barGap: 0.5, // 柱间距离
+            showBackground: true,
+            backgroundStyle: {
+              // color: 'rgba(15,106,223, 0.2)'
+              color: {
+                image: piePatternImg,
+                repeat: "repeat"
+              },
+              opacity: 0.2
+            },
+            itemStyle: {
+              normal: {
+                show: true,
+                color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                  {
+                    offset: 0,
+                    color: "rgba(38,171,255,0.86)"
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(38,171,255,0.39)"
+                  }
+                ])
+              }
+            },
+            label: {
+              show: true,
+              position: "insideTop",
+              distance: -10,
+              rich: {
+                a: {
+                  color: "#fff",
+                  fontSize: 14,
+                  align: "left",
+                  padding: [0, 0, -5, 0],
+                  width: 25,
+                  height: 3,
+                  lineHeight: 16,
+                  backgroundColor: {
+                    image: tipLineImg
+                  }
+                }
+              },
+              formatter: params => {
+                return "{a|" + "" + "}";
+              }
+            }
+          },
+          {
+            name: "今日重车",
+            type: "bar",
+            data: [4, 1, 2, 1, 2, 6, 7],
+            barWidth: 20,
+            barGap: 0.5, // 柱间距离
+            showBackground: true,
+            backgroundStyle: {
+              // color: 'rgba(15,106,223, 0.2)'
+              color: {
+                image: piePatternImg,
+                repeat: "repeat"
+              },
+              opacity: 0.2
+            },
+            itemStyle: {
+              normal: {
+                show: true,
+                color: new t.$echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                  {
+                    offset: 0,
+                    color: "rgba(237,111,81,0.88) "
+                  },
+                  {
+                    offset: 1,
+                    color: "rgba(255,140,5,0.49)"
+                  }
+                ]),
+                borderWidth: 0
+              }
+            },
+            label: {
+              show: true,
+              position: "insideTop",
+              distance: -10,
+              rich: {
+                a: {
+                  color: "#fff",
+                  fontSize: 14,
+                  align: "left",
+                  padding: [0, 0, -5, 0],
+                  width: 25,
+                  height: 3,
+                  lineHeight: 16,
+                  backgroundColor: {
+                    image: tipLineImg
+                  }
+                }
+              },
+              formatter: params => {
+                return "{a|" + "" + "}";
+              }
+            }
+          }
+        ]
+      };
+      testChart34.setOption(option);
+    },
+    drawChart35() {
+      let testChart35 = this.$echarts.init(
+        document.getElementById("testChart35")
+      );
+      var option = {};
+      var t = this;
+
+      var scaleData = [
+        {
+          name: "筹建中",
+          value: 101
+        },
+        {
+          name: "建设中",
+          value: 121
+        },
+        {
+          name: "建设完成",
+          value: 321
+        },
+        {
+          name: "投入使用",
+          value: 187
+        }
+      ];
+      var rich = {
+        white: {
+          color: "#ddd",
+          align: "center",
+          padding: [3, 0]
+        }
+      };
+      var placeHolderStyle = {
+        normal: {
+          label: {
+            show: false
+          },
+          labelLine: {
+            show: false
+          },
+          color: "rgba(0, 0, 0, 0)",
+          borderColor: "rgba(0, 0, 0, 0)",
+          borderWidth: 0
+        }
+      };
+      var data = [];
+      var color = [
+        "#00ffff",
+        "#00cfff",
+        "#006ced",
+        "#ffe000",
+        "#ffa800",
+        "#ff5b00",
+        "#ff3000"
+      ];
+      for (var i = 0; i < scaleData.length; i++) {
+        data.push(
+          {
+            value: scaleData[i].value,
+            name: scaleData[i].name,
+            itemStyle: {
+              normal: {
+                borderWidth: 4,
+                shadowBlur: 200,
+                borderColor: color[i],
+                shadowColor: color[i]
+              }
+            }
+          },
+          {
+            value: 2,
+            name: "",
+            itemStyle: placeHolderStyle
+          }
+        );
+      }
+      var seriesObj = [
+        {
+          name: "",
+          type: "pie",
+          clockWise: false,
+          radius: [100, 200],
+          hoverAnimation: false,
+          itemStyle: {
+            normal: {
+              label: {
+                show: true,
+                position: "outside",
+                color: "#ddd",
+                formatter: function(params) {
+                  var percent = 0;
+                  var total = 0;
+                  for (var i = 0; i < scaleData.length; i++) {
+                    total += scaleData[i].value;
+                  }
+                  percent = ((params.value / total) * 100).toFixed(0);
+                  if (params.name !== "") {
+                    return params.name + "\n{white|" + "占比" + percent + "%}";
+                  } else {
+                    return "";
+                  }
+                },
+                rich: rich
+              },
+              labelLine: {
+                length: 30,
+                length2: 100,
+                show: true,
+                color: "#00ffff"
+              }
+            }
+          },
+          data: data
+        }
+      ];
+      option = {
+        backgroundColor: "#04243E",
+        title: {
+          text: "广州市天河区视频监控系统建设情况",
+          textAlign: "center",
+          left: "49%",
+          textStyle: {
+            color: "#fff",
+            fontSize: 22,
+            fontWeight: "400"
+          }
+        },
+        tooltip: {
+          show: false
+        },
+        legend: {
+          show: false
+        },
+        toolbox: {
+          show: false
+        },
+        series: seriesObj
+      };
+      testChart35.setOption(option);
     }
   }
 };
