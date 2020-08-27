@@ -91,6 +91,9 @@
       </el-col>      <el-col :span="8">
         <div id="testChart29" :style="{ height: '500px'}"></div>
       </el-col>
+            <el-col :span="8">
+        <div id="testChart29" :style="{ height: '500px'}"></div>
+      </el-col>
     </el-row>
   </div>
 </template>
@@ -6041,11 +6044,16 @@ export default {
           }
         });
       });
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 2d87b6bc1391fbf9b63add3d38375ede3832c597
     },
     drawChart29(){
       let testChart29 = this.$echarts.init(document.getElementById("testChart29"));
       var t = this;
       var option = {};
+<<<<<<< HEAD
       //	得到仪表盘
 	let axisLine = {
 		show: false,
@@ -6419,6 +6427,10 @@ export default {
 
 testChart29.setOption(option);
 
+=======
+
+    
+>>>>>>> 2d87b6bc1391fbf9b63add3d38375ede3832c597
 
 
     }
