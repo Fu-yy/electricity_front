@@ -5194,6 +5194,10 @@ export default {
           textAlign: "center",
           top: "20%"
         },
+        tooltip: {
+            trigger: 'item',
+            formatter: '{a} <br/>{b} : {c} ({d}%)'
+        },
         color: [
           "#27D38A",
           "#FFCA1C",
