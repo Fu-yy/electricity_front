@@ -29,6 +29,8 @@ import 'echarts-gl'
 import ElementUI from 'element-ui';//导入elementUI
 import 'element-ui/lib/theme-chalk/index.css';
 
+import scroll from 'vue-seamless-scroll'
+
 
 Vue.use(ElementUI);
 Vue.use(VueAxios,axios);
@@ -41,6 +43,8 @@ Vue.prototype.$axios = axios;
 
 
 Vue.prototype.$echarts = echarts//全局引用echarts
+Vue.use(scroll)
+
 
 Vue.config.productionTip = false
 
